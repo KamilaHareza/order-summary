@@ -15,7 +15,7 @@
 - Layout should be responsive for smaller size screens
 
 ### Screenshot
-![](./screenshot.png)
+!(./screenshot.png)
 ### Links
 
 - [Solution URL here](https://kamilahareza.github.io/order-summary/)
