@@ -15,11 +15,11 @@
 - Layout should be responsive for smaller size screens
 
 ### Screenshot
-!(./screenshot.png)
+!(./images/screenshot.png)
 ### Links
 
 - [Solution URL here](https://kamilahareza.github.io/order-summary/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site URL here](https://github.com/KamilaHareza/order-summary)
 
 ## My process
 
