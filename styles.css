@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color:hsl(223, 47%, 23%);
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+h2{
+    color:hsl(223, 47%, 23%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    color:hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text{
+    padding: 20px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.hero img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.annual{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+.annual-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.annual-left img{
+    margin-right: 15px;
+}
+
+.annual-right{
+    display: flex;
+    align-items: center;
+}
+.annual-right a{
+    color: hsl(245, 75%, 52%);
+}
+
+.annual-right a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-right a:active{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.payment{
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px hsl(224, 23%, 55%);
+    padding: 10px 90px;
+    color:hsl(0, 0%, 100%);
+    background-color:  hsl(245, 75%, 52%);
+    margin: 10px 10px 30px 10px;
+}
+
+.payment:hover{
+    cursor: pointer;
+}
+
+.payment:active{
+    background-color:hsl(224, 23%, 55%);
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cancel:hover{
+    text-decoration: underline;
+}
+
+.cancel:active{
+    color: hsl(245, 75%, 52%);
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background: none;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .card{
+        width: 300px;
+    }
+    .annual{
+        margin: 25px;
+        padding: 10px;
+    }
+    .annual-left{
+        width: 30%;
+        margin:0;
+    }
+    .annual-right a{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .payment{
+        font-size: 12px;
+        width: 80%;
+        padding: 10px;
+    }
+    .cancel{
+        font-size: 12px;
+    } 
+}
