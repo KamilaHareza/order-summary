@@ -18,8 +18,8 @@
 ![](images/screenshot.PNG)
 ### Links
 
-- [Solution URL here](https://kamilahareza.github.io/order-summary/)
-- [Live site URL here](https://github.com/KamilaHareza/order-summary)
+- [Live site URL here](https://kamilahareza.github.io/order-summary/)
+- [Solution URL here](https://github.com/KamilaHareza/order-summary)
 
 ## My process
 
